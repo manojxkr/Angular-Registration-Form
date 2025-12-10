@@ -1,59 +1,52 @@
-# TemplateForm
+Angular Registration Form – Template Driven Form Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
+This project is a fully functional Angular Registration Form built using Template-Driven Forms.
+It includes form validation, dynamic username generation, live user detail preview, and responsive UI styling.
 
-## Development server
+🚀 Features
+✔️ Template-Driven Angular Form
 
-To start a local development server, run:
+Uses ngModel, ngForm, and ngModelGroup
 
-```bash
-ng serve
-```
+Required field validation
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Real-time error messages
 
-## Code scaffolding
+Red border on invalid touched fields
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+✔️ Auto Username Generator
 
-```bash
-ng generate component component-name
-```
+Generates a username using:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+First 3 letters of the first name
 
-```bash
-ng generate --help
-```
+First 3 letters of the last name
 
-## Building
+Year of birth
 
-To build the project run:
+Example:
+manpat2001
 
-```bash
-ng build
-```
+✔️ Live User Preview
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+After submission the user details appear in a profile-style card:
 
-## Running unit tests
+Initials Avatar
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Name
 
-```bash
-ng test
-```
+Email
 
-## Running end-to-end tests
+Username
 
-For end-to-end (e2e) testing, run:
+Address
 
-```bash
-ng e2e
-```
+Date of Birth
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+✔️ Default Values
 
-## Additional Resources
+Default Gender: Male
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Default Country: India
+
+✔️ PatchValue Usage
